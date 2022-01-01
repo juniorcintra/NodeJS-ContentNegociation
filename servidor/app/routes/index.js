@@ -4,6 +4,7 @@ module.exports = function (application) {
       html: function () {
         res.send("Bem vindo a sua app NodeJS!");
       },
+
       json: function () {
         var retorno = {
           body: "Bem vindo a sua app NodeJS!",
